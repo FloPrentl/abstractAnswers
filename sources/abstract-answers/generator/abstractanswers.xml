@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstractanswer>
+  <question>What is an ETF ("Exchange Traded Fund")?</question>
+  <questioncontext>Note: To provide a good answer, questions often need to be considered in a certain context (who asks, why does he ask, ...) - this page tries to give an answer to the question "What is an ETF?" assuming it has been asked by a private person that tries to decide how to invest at least some of its money for better return than saving accounts offer. A friend has given the advice to have a look at ETFs, and, well, now ... scratch ... the questions is: What is an ETF? What the heck is an ETF?</questioncontext>
+  <tagcloud> 
+<!--<tag>
+		<text></text>
+		<left></left>
+		<top></top>
+		<color></color>
+		<fontsize></fontsize>
+		<title></title>
+		<href></href>
+	</tag>-->
+	<!-- bullets -->
+	<tag>
+		<text>marketable</text>
+		<left>140</left>
+		<top>90</top>
+		<color>LightPink</color>
+		<fontsize>16</fontsize>
+		<title>see 'marketable' in the 'summary section'</title>
+		<href>#tag_target_marketable</href>
+	</tag>
+	<tag>
+		<text>liquidity</text>
+		<left>110</left>
+		<top>40</top>
+		<color>LightPink</color>
+		<fontsize>16</fontsize>
+		<title>see 'liquidity' in the 'summary section'</title>
+		<href>#tag_target_liquidity</href>
+	</tag>
+	<tag>
+		<text>fees</text>
+		<left>210</left>
+		<top>40</top>
+		<color>LightPink</color>
+		<fontsize>16</fontsize>
+		<title>see 'fees' in the 'summary section'</title>
+		<href>#tag_target_fees</href>
+	</tag>	
+	<tag>
+		<text>design</text>
+		<left>260</left>
+		<top>90</top>
+		<color>LightPink</color>
+		<fontsize>16</fontsize>
+		<title>see 'design' in the 'summary section'</title>
+		<href>#tag_target_design</href>
+	</tag>
+	<tag>
+		<text>diversification</text>
+		<left>20</left>
+		<top>20</top>
+		<color>LightPink</color>
+		<fontsize>16</fontsize>
+		<title>see 'diversification' in the 'summary section'</title>
+		<href>#tag_target_diversification</href>
+	</tag>
+	<tag>
+		<text>ownership</text>
+		<left>20</left>
+		<top>120</top>
+		<color>LightPink</color>
+		<fontsize>16</fontsize>
+		<title>see 'ownership' in the 'summary section'</title>
+		<href>#tag_target_ownership</href>
+	</tag>	
+	<tag>
+		<text>profits</text>
+		<left>20</left>
+		<top>100</top>
+		<color>LightPink</color>
+		<fontsize>16</fontsize>
+		<title>see 'profits' in the 'summary section'</title>
+		<href>#tag_target_profits</href>
+	</tag>
+	<!-- related questions -->
+	<tag>
+		<text>(sorry, currently no related questions available)</text>
+		<left>70</left>
+		<top>65</top>
+		<color>Orange</color>
+		<fontsize>12</fontsize>
+		<title>(sorry, currently no related questions available)</title>
+		<href>#no_target</href>
+	</tag>			
+	<!-- general web resources -->
+	<tag>
+		<text>Investopedia</text>
+		<left>200</left>
+		<top>10</top>
+		<color>MediumSeaGreen</color>
+		<fontsize>22</fontsize>
+		<title>see 'Investopedia' in the 'web sources (general) section'</title>
+		<href>#web_source_general_link_investopedia</href>
+	</tag>	
+	<tag>
+		<text>Wikipedia</text>
+		<left>100</left>
+		<top>120</top>
+		<color>MediumSeaGreen</color>
+		<fontsize>22</fontsize>
+		<title>see 'Wikipedia' in the 'web sources (general) section'</title>
+		<href>#web_source_general_link_wikipedia</href>
+	</tag>	
+	<!-- sponsored web resources -->
+	<tag>
+		<text>iShares</text>
+		<left>240</left>
+		<top>120</top>
+		<color>#00B0F0</color>
+		<fontsize>16</fontsize>
+		<title>see 'iShares' in the 'web sources (sponsored) section'</title>
+		<href>#no_target</href>
+	</tag>	
+  </tagcloud>
+  <summaryparagraphs>
+	<summaryparagraph><text>ETFs are marketable securities that trade like common stocks on a stock exchange. Therefore typically the liquidity is higher and fees are lower compared to mutual funds.</text></summaryparagraph>
+	<summaryparagraph><text>ETFs are most often designed to match well-known benchmarks. The most common case are ETFs that replicate an index.</text></summaryparagraph>
+	<summaryparagraph><text>With an ETF you can get the diversification of an index fund, with a small investment sum, and indirect ownership of the underlying assets. Indirect ownership means that shareholders own the fund, and the fund owns the assets. There is no risk of default as there is with certificates.</text></summaryparagraph>
+	<summaryparagraph><text>ETF Shareholders get a proportion of the profits of the assets and a residual value in case the fund is liquidated.</text></summaryparagraph>
+  </summaryparagraphs>  
+  <summarybullets>
+  <!--<summarybullet>
+		<summarybulletpart>
+			<class></class>
+			<color></color>
+			<text></text>
+		</summarybulletpart>
+	</summarybullet>-->	
+	<summarybullet>
+		<summarybulletpart>
+			<class>tag_target_marketable</class>
+			<color>LightPink</color>
+			<text>marketable</text>
+		</summarybulletpart>
+		<summarybulletpart>
+			<text> securities</text>
+		</summarybulletpart>
+	</summarybullet>	
+	<summarybullet>
+		<summarybulletpart>
+			<text>trade like common stocks on a stock exchange</text>
+		</summarybulletpart>
+	</summarybullet>	
+	<summarybullet>
+		<summarybulletpart>
+			<text>typically</text>
+		</summarybulletpart>
+		<summarybulletpart>
+			<class>tag_target_liquidity</class>
+			<color>LightPink</color>
+			<text> liquidity</text>
+		</summarybulletpart>
+		<summarybulletpart>
+			<text> is higher compared to mutual funds</text>
+		</summarybulletpart>
+	</summarybullet>	
+	<summarybullet>
+		<summarybulletpart>
+			<text>typically </text>
+		</summarybulletpart>
+		<summarybulletpart>
+			<class>tag_target_liquidity</class>
+			<color>LightPink</color>
+			<text>fees</text>
+		</summarybulletpart>
+		<summarybulletpart>
+			<text> are lower compared to mutual funds</text>
+		</summarybulletpart>
+	</summarybullet>
+	<summarybullet>
+		<summarybulletpart>
+			<class>tag_target_design1</class>
+			<color>LightPink</color>
+			<text>design</text>		
+		</summarybulletpart>		
+		<summarybulletpart>
+			<text>ed to match well-known benchmarks</text>		
+		</summarybulletpart>		
+	</summarybullet>
+	<summarybullet>
+		<summarybulletpart>
+			<text>often </text>		
+		</summarybulletpart>		
+		<summarybulletpart>
+			<class>tag_target_design1</class>
+			<color>LightPink</color>
+			<text>design</text>		
+		</summarybulletpart>
+		<summarybulletpart>
+			<text>ed to replicate an index</text>		
+		</summarybulletpart>
+	</summarybullet>
+	<summarybullet>
+		<summarybulletpart>
+			<class>tag_target_design1</class>
+			<color>LightPink</color>
+			<text>diversification</text>		
+		</summarybulletpart>		
+		<summarybulletpart>
+			<text> of an index fund with a small investment sum</text>		
+		</summarybulletpart>		
+	</summarybullet>
+	<summarybullet>
+		<summarybulletpart>
+			<text>indirect </text>
+		</summarybulletpart>		
+		<summarybulletpart>
+			<class>tag_target_design1</class>
+			<color>LightPink</color>
+			<text>ownership</text>
+		</summarybulletpart>		
+		<summarybulletpart>
+			<text> of the underlying assets</text>
+		</summarybulletpart>		
+	</summarybullet>
+	<summarybullet>
+		<summarybulletpart>
+			<text>give a proportion of the </text>		
+		</summarybulletpart>		
+		<summarybulletpart>
+			<class>tag_target_design1</class>
+			<color>LightPink</color>
+			<text>profits</text>		
+		</summarybulletpart>		
+		<summarybulletpart>
+			<text> of the assets</text>		
+		</summarybulletpart>		
+	</summarybullet>
+	<summarybullet>
+		<summarybulletpart>
+			<text>give a residual value in case of liquidation</text>		
+		</summarybulletpart>		
+	</summarybullet>	
+  </summarybullets>  
+  <general_web_sources>
+  	<general_web_source>
+  		<header_id>web_source_general_link_wikipedia</header_id>
+  		<header_title>Wikipedia</header_title>
+  		<header_href>https://en.wikipedia.org/wiki/Exchange-traded_fund</header_href>
+  		<header_text>Wikipedia</header_text>
+  		<pre_text_link_text>Wikipedia is a free-access, free-content Internet encyclopedia, supported and hosted by the non-profit Wikimedia Foundation. Of course Wikipedia has </pre_text_link_text>
+  		<text_link_title>Wikipedia</text_link_title>
+  		<text_link_href>https://en.wikipedia.org/wiki/Exchange-traded_fund</text_link_href>
+  		<text_link_text>a page on ETFs</text_link_text>
+  		<post_text_link_text>.</post_text_link_text>  		
+  	</general_web_source>
+	<general_web_source>
+  		<header_id>web_source_general_link_investopedia</header_id>
+  		<header_title>Investopedia</header_title>
+  		<header_href>http://www.investopedia.com/terms/e/etf.asp</header_href>
+  		<header_text>Investopedia</header_text>
+  		<pre_text_link_text>Investopedia is a resource for investing education, personal finance, market analysis, and free trading simulators. In its comprehensive financial dictionary Investopedia offers </pre_text_link_text>
+  		<text_link_title>Investopedia</text_link_title>
+  		<text_link_href>http://www.investopedia.com/terms/e/etf.asp</text_link_href>
+  		<text_link_text>a more detailed page with information on the question "What is an ETF?"</text_link_text>
+  		<post_text_link_text></post_text_link_text>
+  	</general_web_source>
+  </general_web_sources>  
+  <sponsored_web_sources>
+  	<sponsored_web_source>
+  		<header_id>web_source_sponsored_link_ishares</header_id>
+  		<header_title>iShares</header_title>
+  		<header_href>http://www.ishares.com/us</header_href>
+  		<header_text>iShares</header_text>
+  		<pre_text_link_text>iShares are a family of exchange-traded funds (ETFs) managed by BlackRock</pre_text_link_text>
+  		<text_link_title></text_link_title>
+  		<text_link_href></text_link_href>
+  		<text_link_text></text_link_text>
+  		<post_text_link_text>.</post_text_link_text>  		
+  	</sponsored_web_source>	
+  </sponsored_web_sources>
+</abstractanswer> 

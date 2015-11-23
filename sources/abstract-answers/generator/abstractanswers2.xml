@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstractanswer>
+  <question>What is an ETF ("Exchange Traded Fund")?</question>
+  <questioncontext>Note: To provide a good answer, questions often need to be considered in a certain context (who asks, why does he ask, ...) - this page tries to give an answer to the question "What is an ETF?" assuming it has been asked by a private person that tries to decide how to invest at least some of its money for better return than saving accounts offer. A friend has given the advice to have a look at ETFs, and, well, now ... scratch ... the questions is: What is an ETF? What the heck is an ETF?</questioncontext>
+  <tags> 
+	<tag><text>marketable</text><relevance>medium</relevance></tag>
+	<tag><text>liquidity</text><relevance>medium</relevance></tag>
+	<tag><text>fees</text><relevance>medium</relevance></tag>	
+	<tag><text>design</text><relevance>medium</relevance></tag>
+	<tag><text>diversification</text><relevance>medium</relevance></tag>
+	<tag><text>ownership</text><relevance>medium</relevance></tag>	
+	<tag><text>profits</text><relevance>medium</relevance></tag>
+	<tag><text>investopedia</text><relevance>high</relevance></tag>	
+	<tag><text>wikipedia</text><relevance>high</relevance></tag>
+	<tag><text>iShares</text><relevance>medium</relevance></tag>	
+  </tags>
+  <paragraphs>
+	<paragraph><text>ETFs are marketable securities that trade like common stocks on a stock exchange. Therefore typically the liquidity is higher and fees are lower compared to mutual funds.</text></paragraph>
+	<paragraph><text>ETFs are most often designed to match well-known benchmarks. The most common case are ETFs that replicate an index.</text></paragraph>
+	<paragraph><text>With an ETF you can get the diversification of an index fund, with a small investment sum, and indirect ownership of the underlying assets. Indirect ownership means that shareholders own the fund, and the fund owns the assets. There is no risk of default as there is with certificates.</text></paragraph>
+	<paragraph><text>ETF Shareholders get a proportion of the profits of the assets and a residual value in case the fund is liquidated.</text></paragraph>
+  </paragraphs>  
+  <bullets>  
+	<bullet><text>marketable securities</text></bullet>	
+	<bullet><text>trade like common stocks on a stock exchange</text></bullet>	
+	<bullet><text>typically liquidity is higher compared to mutual funds</text></bullet>	
+	<bullet><text>typically fees are lower compared to mutual funds</text></bullet>
+	<bullet><text>designed to match well-known benchmarks</text></bullet>
+	<bullet><text>often designed to replicate an index</text></bullet>
+	<bullet><text>diversification of an index fund with a small investment sum</text></bullet>
+	<bullet><text>indirect ownership of the underlying assets</text></bullet>
+	<bullet><text>give a proportion of the profits of the assets</text></bullet>
+	<bullet><text>give a residual value in case of liquidation</text></bullet>	
+  </bullets>  
+  <web_sources>
+	<web_source>  		
+  		<href>https://en.wikipedia.org/wiki/Exchange-traded_fund</href>
+  		<header>Wikipedia</header><body>Wikipedia is a free-access, free-content Internet encyclopedia, supported and hosted by the non-profit Wikimedia Foundation. Of course Wikipedia has a page on ETFs.</body>
+  	</web_source>	
+	<web_source>  		
+  		<href>http://www.investopedia.com/terms/e/etf.asp</href>
+  		<header>Investopedia</header><body>Investopedia is a resource for investing education, personal finance, market analysis, and free trading simulators. In its comprehensive financial dictionary Investopedia offers a more detailed page with information on the question "What is an ETF?".</body>
+  	</web_source>	
+	<web_source>  		
+  		<href>http://www.ishares.com/us</href>
+  		<header>iShares</header>
+		<body>iShares are a family of exchange-traded funds (ETFs) managed by BlackRock.</body>
+  	</web_source>
+  </web_sources>	
+</abstractanswer> 

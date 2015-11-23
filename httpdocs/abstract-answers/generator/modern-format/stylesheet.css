@@ -1,0 +1,288 @@
+body {
+  width: 100%;
+  display: grid;
+  grid-columns: 20% 80%;
+  grid-rows: 100px auto 100px;
+  background-color: #F0F0F0;
+  font-family: calibri;  
+  margin: 0px;
+}
+
+h1 {
+  font-size: 16pt;
+}
+
+p {
+  color: black;
+  font-size: 12pt;
+}
+
+div {
+  color: black;
+}
+
+dl {
+  color: black;
+}
+
+hr {
+  color: #5b9bd5;
+}
+
+/* page */
+
+#page {
+  display: block;
+  margin: 0px;
+  border-width: 1px;
+  border-style: none;
+  border-color: yellow;  
+}
+
+/* content header table */
+
+#content_header_table {
+  display:table; 
+  height: 50px;
+  width:100%; 
+  margin-top: 0px;  
+  background-color: white;
+}
+
+#content_header_table_row {
+  display:table-row;
+}
+
+.content_header_table_cell {
+  display:table-cell;
+}
+
+#content_header_table_cell_2 {
+  color: black;
+  width:400px;
+}
+
+#content_header_table_cell_3 {
+  width:400px;
+  text-align:right;
+}
+
+.content_header_table_paragraph {
+  color: black;
+}
+
+/* content */
+
+#content {
+  position: relative;
+  display: block;
+  width: 800px;
+  text-align: left;
+  border-width: 1px;
+  border-style: none;
+  border-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* question */
+
+#question_context_paragraph {
+  font-size: x-small
+}
+
+/* sections */
+
+.section_table {
+  position: relative;
+  display: table; 
+  width: 100%; 
+  margin-top: 0px;
+  background-color: white;
+}
+
+.section_row {
+  display:table-row;
+}
+
+.section_cell {
+  display:table-cell;
+  width: 100%;
+  padding: 8px;
+}
+
+.section_inner_cell {
+  display:table-cell;
+  width: 2%;
+}
+
+.section_outer_cell {
+  display:table-cell;
+  width: 49%;
+}
+
+#section_cell_tldr {
+	display:table-cell;
+	width: 50%;
+	padding: 8px;
+}
+
+#section_cell_adunit {
+	display:table-cell;
+	width: 50%;
+	padding: 8px;
+}
+
+#section_table_question {
+	background-color: #F0F0F0;
+}
+
+#section_table_disclaimer {	
+	background-color: #F0F0F0;
+}
+
+/* section headers */
+
+.section_header_table {
+  display:table;   
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.section_header_table_row {
+  display:table-row;
+}
+
+.section_header_table_upper_row {
+  display:table-row;
+}
+
+.section_header_table_lower_row {
+  display:table-row;
+}
+
+.section_header_table_cell {
+  display:table-cell;    
+}
+
+.section_header_table_cell_paragraph {
+	font-size: medium;
+	color: darkgray;  
+	font-weight: bold;
+}
+
+.section_header_table_upper_cell {
+  display:table-cell;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #5b9bd5;
+  text-align: right;
+  color: #5b9bd5;
+  font-size: 10pt;
+}
+
+.section_header_table_lower_cell {
+  display:table-cell;
+  height: 8px;
+}
+
+/* section bodies */
+
+.section_body {
+	position: relative;
+	font-size: medium;
+}
+
+/* tag cloud section */
+
+.tag {
+	color: #686868;
+}
+
+#tag_cloud_section {
+  display: block;  
+  height: 160px;
+  text-align: center;
+  border-width: 1px;
+  border-style: none;
+  border-color: green;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tag_cloud_tag_horizontal {
+  position: absolute;
+}
+
+.tag_cloud_tag_vertical {
+  position: absolute;
+  transform-origin: left top 0;
+  transform: rotate(270deg);
+}
+
+/* soundcloud youtube section */
+
+#section_body_soundcloud_youtube {
+	font-size:small;
+	text-align:center;
+}
+
+/* summary text section */
+
+.summary_text_paragraph {
+	margin-top: 0px;
+	margin-bottom: 4px;	
+	font-size:medium;
+}
+
+/* summary bullets section */
+
+#summary_bullets_section_list {
+	margin-top: 0px;
+}
+
+/* sponsor section */
+
+#section_body_sponsor {
+	text-align:center;
+}
+
+/* related questions section */
+
+#related_questions_section_list {
+	margin-top: 0px;	
+}
+
+/* web sources sections */
+
+.web_resources_list {
+	margin-top: 0px;
+}
+
+.web_sources_list_entry_body {
+	font-size:medium;
+}
+
+/* web sources general section */
+
+.web_source_general_link {
+	color: MediumSeaGreen;
+	text-decoration-line:none;
+}
+
+/* web sources sponsored section */
+
+.web_source_sponsored_link {
+	color: #00B0F0;
+	text-decoration-line:none;
+}
+
+/* disclaimer section */
+
+#disclaimer_paragraph {
+	color: darkgray; 
+	font-size: 10pt; 
+	margin-top: 0px;
+}
