@@ -76,7 +76,7 @@
 								<div  class="section_header_table_cell"><p class="section_header_table_cell_paragraph">&#160;</p></div>
 							</div>							
 						</div>
-						<div class="section_body"><img src="youtube.png" width="80" height="40"></img><br></br><br></br><img src="soundcloud.png" width="80" height="40"></img></div>
+						<div class="section_body"><img src="youtube_inactive.png" width="80" height="40"></img><br></br><br></br><img src="soundcloud_inactive.png" width="80" height="40"></img></div>
 					</div>	
 				</div>		  
 			</div>       
@@ -130,7 +130,7 @@
 						<div class="section_body">   
 							<dl class="web_resources_list">							
 								<xsl:for-each select="abstractanswer/web_sources/web_source">
-									<dt><xsl:value-of select="header"/></dt>						  
+									<dt><a><xsl:attribute name="href"><xsl:value-of select="href"/></xsl:attribute><xsl:value-of select="header"/></a></dt>						  
 									<dd class="web_sources_list_entry_body">
 										<xsl:value-of select="body"/>
 									</dd>
