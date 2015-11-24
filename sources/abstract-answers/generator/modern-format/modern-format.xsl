@@ -10,6 +10,19 @@
   <head>
     <meta charset="utf-8"></meta> 
     <link rel="stylesheet" href="stylesheet.css"></link>
+	
+	<!--
+	<?xml version="1.0" encoding="iso-8859-1" ?>
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+	<meta http-equiv="content-type" content="application/xhtml+xml; charset=iso-8859-1" />
+	<title>How to relaunch finder without logging out or restarting your apple computer</title>
+	<meta name="description" content="How to relaunch finder without logging out or restarting your apple computer"/>
+	<meta name="keywords" content="How to relaunch finder without logging out or restarting your apple computer"/>
+	<link rel="icon" href="http://still-scripts.com/favicon.ico" />	
+	</head> -->	
+	
   </head>
   <body>
   
