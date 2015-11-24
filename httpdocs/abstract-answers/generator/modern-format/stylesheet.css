@@ -50,25 +50,35 @@ hr {
 }
 
 #content_header_table_row {
-  display:table-row;
+  display:table-row;  
 }
 
 .content_header_table_cell {
   display:table-cell;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #5b9bd5;
 }
 
 #content_header_table_cell_2 {
   color: black;
   width:400px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #5b9bd5;
 }
 
 #content_header_table_cell_3 {
   width:400px;
   text-align:right;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #5b9bd5;
 }
 
 .content_header_table_paragraph {
   color: black;
+  font-size: 14pt;
 }
 
 /* content */
