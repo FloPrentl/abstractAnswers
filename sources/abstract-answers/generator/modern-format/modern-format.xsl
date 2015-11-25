@@ -104,7 +104,7 @@
 								<div  class="section_header_table_cell"><p class="section_header_table_cell_paragraph">&#160;</p></div>
 							</div>							
 						</div>
-						<div class="section_body">
+						<div id="section_body_google_ad" class="section_body">
 							<script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 							<ins class="adsbygoogle"
 								 style="display:inline-block;width:300px;height:250px"
