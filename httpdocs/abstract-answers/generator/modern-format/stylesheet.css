@@ -131,15 +131,40 @@ hr {
   width: 49%;
 }
 
+#section_cell_answer {
+	display:table-cell;
+	width: 680px;
+	padding: 8px;
+}
+
+#section_cell_youtube {
+	display:table-cell;
+	text-align:center;
+	width: 120px;
+	padding: 8px;
+}
+
 #section_cell_tldr {
 	display:table-cell;
-	width: 50%;
+	width: 496px;
 	padding: 8px;
 }
 
 #section_cell_adunit {
 	display:table-cell;
-	width: 50%;
+	width: 304px;
+	padding: 8px;
+}
+
+#section_cell_web {
+	display:table-cell;
+	width: 596;
+	padding: 8px;
+}
+
+#section_cell_linkunit {
+	display:table-cell;
+	width: 204;
 	padding: 8px;
 }
 

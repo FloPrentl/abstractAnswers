@@ -30,7 +30,7 @@
 			<div id="content_header_table_row">
 				<div class="content_header_table_cell"></div>
 				<div class="content_header_table_cell" id="content_header_table_cell_2"><p class="content_header_table_paragraph">Finance Area</p></div>
-				<div class="content_header_table_cell" id="content_header_table_cell_3"><p class="content_header_table_paragraph">abstractvision.de</p></div>
+				<div class="content_header_table_cell" id="content_header_table_cell_3"><p class="content_header_table_paragraph">abstract answers @ abstractvision.de</p></div>
 				<div class="content_header_table_cell"></div>
 			</div>
 		</div>
@@ -56,7 +56,7 @@
 							</div>							
 						</div>
 						<div class="section_body">    
-							<xsl:for-each select="abstractanswer/tags/tag"><span class="tag"><xsl:value-of select="text"/>&#160;</span></xsl:for-each>
+							<xsl:for-each select="abstractanswer/tags/tag"><span class="tag"><xsl:value-of select="text"/>&#160;...&#160;</span></xsl:for-each>
 						</div>								
 					</div>	
 				</div>		  
@@ -65,7 +65,7 @@
 			<!-- answer -->
 			<div class="section_table">
 				<div class="section_row">
-					<div class="section_cell">					
+					<div id="section_cell_answer" class="section_cell">					
 						<div class="section_header_table">				
 							<div class="section_header_table_row">
 								<div  class="section_header_table_cell"><p class="section_header_table_cell_paragraph">answer</p></div>
@@ -79,7 +79,7 @@
 							</xsl:for-each>
 						</div>								
 					</div>	
-					<div class="section_cell">					
+					<div id="section_cell_youtube" class="section_cell">					
 						<div class="section_header_table">				
 							<div class="section_header_table_row">
 								<div  class="section_header_table_cell"><p class="section_header_table_cell_paragraph">&#160;</p></div>
@@ -110,7 +110,7 @@
 					<div id="section_cell_adunit" class="section_cell">					
 						<div class="section_header_table">				
 							<div class="section_header_table_row">
-								<div  class="section_header_table_cell"><p class="section_header_table_cell_paragraph">&#160;</p></div>
+								<div  class="section_header_table_cell"><p class="section_header_table_cell_paragraph">google ad</p></div>
 							</div>							
 						</div>
 						<div id="section_body_google_ad" class="section_body">
@@ -130,14 +130,14 @@
 			<!-- web resources -->
 			<div class="section_table">
 				<div class="section_row">
-					<div class="section_cell">					
+					<div id="section_cell_web" class="section_cell">
 						<div class="section_header_table">				
 							<div class="section_header_table_row">
 								<div  class="section_header_table_cell"><p class="section_header_table_cell_paragraph">web resources</p></div>
 							</div>							
 						</div>
-						<div class="section_body">   
-							<dl class="web_resources_list">							
+						<div class="section_body">
+							<dl class="web_resources_list">
 								<xsl:for-each select="abstractanswer/web_sources/web_source">
 									<dt><a><xsl:attribute name="href"><xsl:value-of select="href"/></xsl:attribute><xsl:value-of select="header"/></a></dt>						  
 									<dd class="web_sources_list_entry_body">
@@ -146,7 +146,34 @@
 								</xsl:for-each>
 							</dl>							
 						</div>								
-					</div>	
+					</div>						
+					<div id="section_cell_linkunit" class="section_cell">					
+						<div class="section_header_table">				
+							<div class="section_header_table_row">
+								<div  class="section_header_table_cell"><p class="section_header_table_cell_paragraph">custom search and links</p></div>
+							</div>							
+						</div>
+						<div id="section_body_google_ad" class="section_body">						
+							<form action="http://www.google.com" id="cse-search-box" target="_blank">
+							  <div>
+								<input type="hidden" name="cx" value="partner-pub-9295187614171155:4107853022" />
+								<input type="hidden" name="ie" value="UTF-8" />
+								<input type="text" name="q" size="20" />
+								<input type="submit" name="sa" value="Search" />
+							  </div>
+							</form>
+							<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+						
+							<script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<ins class="adsbygoogle"
+								 style="display:inline-block;width:200px;height:90px"
+								 data-ad-client="ca-pub-9295187614171155"
+								 data-ad-slot="6142989426"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>							
+						</div>
+					</div>					
 				</div>		  
 			</div>			
 
