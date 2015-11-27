@@ -36,16 +36,18 @@
   <web_sources>
 	<web_source>  		
   		<href>https://en.wikipedia.org/wiki/Exchange-traded_fund</href>
-  		<header>Wikipedia</header><body>Wikipedia is a free-access, free-content Internet encyclopedia, supported and hosted by the non-profit Wikimedia Foundation. Of course Wikipedia has a page on ETFs.</body>
+  		<header>Wikipedia</header><body> is a free-access, free-content Internet encyclopedia, supported and hosted by the non-profit Wikimedia Foundation. Of course Wikipedia has a page on ETFs.</body>
+		<search>site:wikipedia.org what is an etf?</search>
   	</web_source>	
 	<web_source>  		
   		<href>http://www.investopedia.com/terms/e/etf.asp</href>
-  		<header>Investopedia</header><body>Investopedia is a resource for investing education, personal finance, market analysis, and free trading simulators. In its comprehensive financial dictionary Investopedia offers a more detailed page with information on the question "What is an ETF?".</body>
+  		<header>Investopedia</header><body> is a resource for investing education, personal finance, market analysis, and free trading simulators. In its comprehensive financial dictionary Investopedia offers a more detailed page with information on the question "What is an ETF?".</body>
+		<search>site:investopedia.com what is an etf?</search>
   	</web_source>	
 	<web_source>  		
   		<href>http://www.ishares.com/us</href>
-  		<header>iShares</header>
-		<body>iShares are a family of exchange-traded funds (ETFs) managed by BlackRock.</body>
+  		<header>iShares</header><body> are a family of exchange-traded funds (ETFs) managed by BlackRock.</body>
+		<search>site:ishares.com what is an etf?</search>
   	</web_source>
   </web_sources>	
 </abstractanswer> 
