@@ -202,6 +202,10 @@ hr {
 	font-weight: bold;	
 }
 
+.section_header_click_to_span {
+	font-size: 10pt;
+}
+
 /* section bodies */
 
 .section_body {

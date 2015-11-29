@@ -55,12 +55,21 @@
 						<div class="section_header_table">				
 							<div class="section_header_table_row">
 								<div  class="section_header_table_cell">
-									<p class="section_header_table_cell_paragraph"><span>tags ...</span>&#160;<span style="font-size: 10pt;">click to highlight tags on page</span></p>
+									<p class="section_header_table_cell_paragraph"><span>tags ...</span>&#160;<span class="section_header_click_to_span">click to highlight tags on page</span></p>
 								</div>
 							</div>							
 						</div>
 						<div class="section_body">    
-							<xsl:for-each select="abstractanswer/tags/tag"><span class="tag"><xsl:value-of select="text"/>&#160;...&#160;</span></xsl:for-each>
+							<xsl:for-each select="abstractanswer/tags/tag">
+								<span class="tag">
+									<a>									
+										<xsl:attribute name="href">#</xsl:attribute>
+										<xsl:attribute name="onClick">execute_tag('<xsl:value-of select="text"/>');</xsl:attribute>									
+										<xsl:value-of select="text"/>
+									</a>
+									&#160;...&#160;
+								</span>
+							</xsl:for-each>
 						</div>								
 					</div>	
 				</div>		  
@@ -117,15 +126,7 @@
 								<div  class="section_header_table_cell"><p class="section_header_table_cell_paragraph">google ad</p></div>
 							</div>							
 						</div>
-						<div id="section_body_google_ad" class="section_body">							
-							<!-- <script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-							<ins class="adsbygoogle"
-								 style="display:inline-block;width:300px;height:250px"
-								 data-ad-client="ca-pub-9295187614171155"
-								 data-ad-slot="7367860629"></ins>
-							<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-							</script> -->							
+						<div id="section_body_google_ad" class="section_body">														
 							<script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 							<ins class="adsbygoogle"
 								 style="display:inline-block;width:200px;height:200px"
@@ -145,7 +146,7 @@
 					<div id="section_cell_web" class="section_cell">
 						<div class="section_header_table">				
 							<div class="section_header_table_row">
-								<div  class="section_header_table_cell"><p class="section_header_table_cell_paragraph"><span>web resources ...</span>&#160;<span style="font-size: 10pt;">click to perform a specific search on site</span></p></div>
+								<div  class="section_header_table_cell"><p class="section_header_table_cell_paragraph"><span>web resources ...</span>&#160;<span class="section_header_click_to_span">click to perform a specific search on site</span></p></div>
 							</div>							
 						</div>
 						<div class="section_body">							
@@ -153,28 +154,14 @@
 								<xsl:for-each select="abstractanswer/web_sources/web_source">
 									<li>										
 										<a style="color: #5b9bd5;">
+											<xsl:attribute name="href">#</xsl:attribute>
 											<xsl:attribute name="onClick">execute_google_search('<xsl:value-of select="search"/>');</xsl:attribute>
 											<xsl:value-of select="header"/>
 										</a>
 										<xsl:value-of select="body"/>
 									</li>
 								</xsl:for-each>
-							</ul>
-							
-							
-							<!-- <dl class="web_resources_list">
-								<xsl:for-each select="abstractanswer/web_sources/web_source">
-									<dt>
-										<a>
-											<xsl:attribute name="onClick"><xsl:value-of select="href"/>execute_google_search('site:wikipedia.org what is an etf?');</xsl:attribute>
-											<xsl:value-of select="header"/>
-										</a>
-									</dt>						  
-									<dd class="web_sources_list_entry_body">
-										<xsl:value-of select="body"/>
-									</dd>
-								</xsl:for-each>
-							</dl>							 -->
+							</ul>							
 						</div>								
 					</div>						
 					<div id="section_cell_linkunit" class="section_cell">					
