@@ -16,10 +16,13 @@
 	<tag><text>iShares</text><type>web</type><search>site:ishares.com what is an etf?</search><relevance>medium</relevance></tag>	
   </tags>
   <paragraphs>
-	<paragraph><text>ETFs are marketable securities that trade like common stocks on a stock exchange. Therefore typically the liquidity is higher and fees are lower compared to mutual funds.</text></paragraph>
-	<paragraph><text>ETFs are most often designed to match well-known benchmarks. The most common case are ETFs that replicate an index.</text></paragraph>
-	<paragraph><text>With an ETF you can get the diversification of an index fund, with a small investment sum, and indirect ownership of the underlying assets. Indirect ownership means that shareholders own the fund, and the fund owns the assets. There is no risk of default as there is with certificates.</text></paragraph>
-	<paragraph><text>ETF Shareholders get a proportion of the profits of the assets and a residual value in case the fund is liquidated.</text></paragraph>
+		<paragraph><text>ETFs are marketable securities that trade like common stocks on a stock exchange. Therefore typically the liquidity is higher and fees are lower compared to mutual funds.</text></paragraph>
+		<paragraph><text>ETFs are most often designed to match well-known benchmarks. The most common case are ETFs that replicate an index.</text></paragraph>
+		<paragraph><text>With an ETF you can get the diversification of an index fund, with a small investment sum, and indirect ownership of the underlying assets. Indirect ownership means that shareholders own the fund, and the fund owns the assets. There is no risk of default as there is with certificates.</text></paragraph>
+		<paragraph><text>ETF Shareholders get a proportion of the profits of the assets and a residual value in case the fund is liquidated.</text></paragraph>		
+		<!--
+		checkout: https://www.ishares.com/us/about-etfs/what-is-an-etf/five-etf-must-knows	
+		-->		
   </paragraphs>  
   <bullets>  
 	<bullet><text>marketable securities</text></bullet>	
@@ -36,18 +39,23 @@
   <web_sources>
 		<web_source>  		
 	  		<href>https://en.wikipedia.org/wiki/Exchange-traded_fund</href>
-	  		<header>Wikipedia</header><body> is a free-access, free-content Internet encyclopedia, supported and hosted by the non-profit Wikimedia Foundation. Of course Wikipedia has a page on ETFs.</body>
+	  		<header>Wikipedia</header><body> is a free-access, free-content Internet encyclopedia, supported and hosted by the non-profit Wikimedia Foundation. Wikipedia provides an encyclopedia page on ETFs.</body>
 				<search>site:wikipedia.org what is an etf?</search>
 	  </web_source>	
 		<web_source>  		
 	  		<href>http://www.investopedia.com/terms/e/etf.asp</href>
-	  		<header>Investopedia</header><body> is a resource for investing education, personal finance, market analysis, and free trading simulators. In its comprehensive financial dictionary Investopedia offers a more detailed page with information on the question "What is an ETF?".</body>
+	  		<header>Investopedia</header><body> is a resource for investing education, personal finance, market analysis, and free trading simulators. In its comprehensive financial dictionary Investopedia offers a detailed page on ETFs.</body>
 				<search>site:investopedia.com what is an etf?</search>
 	  </web_source>	
 		<web_source>  		
-	  		<href>http://www.ishares.com/us</href>
-	  		<header>iShares</header><body> are a family of exchange-traded funds (ETFs) managed by BlackRock.</body>
+	  		<href>https://www.ishares.com/us/about-etfs/what-is-an-etf/five-etf-must-knows</href>
+		  	<header>iShares</header><body> are a family of exchange-traded funds (ETFs) managed by BlackRock. iShares is the largest issuer of ETFs in the US and globally. Based in New York City, BlackRock, Inc. is the world's largest multinational investment and asset management corporation. The iShares site provides a very good intro to ETFs as well as an overview of the extensive list of ETF types available.</body>
 				<search>site:ishares.com what is an etf?</search>
+	  </web_source>
+	  <web_source>  		
+	  		<href>http://www.etf.com/</href>
+			  <header>ETF.com</header><body> is a well-known site that is dedicated specifically to ETFs. It provides actual news, expert articles, analytics and data, information on conferences, webinars and many educational guides on the genral topic of ETFs.</body>
+				<search>site:etf.com what is an etf?</search>
 	  </web_source>
   </web_sources>	
 </abstractanswer> 
