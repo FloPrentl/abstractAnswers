@@ -4,16 +4,16 @@
   <question>What is an ETF ("Exchange Traded Fund")?</question>
   <questioncontext>Note: To provide a good answer, questions often need to be considered in a certain context (who asks, why does he ask, ...) - this page tries to give an answer to the question "What is an ETF?" assuming it has been asked by a private person that tries to decide how to invest at least some of its money for better return than saving accounts offer. A friend has given the advice to have a look at ETFs, and, well, now ... scratch ... the questions is: What is an ETF? What the heck is an ETF?</questioncontext>
   <tags> 
-	<tag><text>marketable</text><relevance>medium</relevance></tag>
-	<tag><text>liquidity</text><relevance>medium</relevance></tag>
-	<tag><text>fees</text><relevance>medium</relevance></tag>	
-	<tag><text>design</text><relevance>medium</relevance></tag>
-	<tag><text>diversification</text><relevance>medium</relevance></tag>
-	<tag><text>ownership</text><relevance>medium</relevance></tag>	
-	<tag><text>profits</text><relevance>medium</relevance></tag>
-	<tag><text>investopedia</text><relevance>high</relevance></tag>	
-	<tag><text>wikipedia</text><relevance>high</relevance></tag>
-	<tag><text>iShares</text><relevance>medium</relevance></tag>	
+	<tag><text>marketable</text><type>text</type><relevance>medium</relevance></tag>
+	<tag><text>liquidity</text><type>text</type><relevance>medium</relevance></tag>
+	<tag><text>fees</text><type>text</type><relevance>medium</relevance></tag>	
+	<tag><text>design</text><type>text</type><relevance>medium</relevance></tag>
+	<tag><text>diversification</text><type>text</type><relevance>medium</relevance></tag>
+	<tag><text>ownership</text><type>text</type><relevance>medium</relevance></tag>	
+	<tag><text>profits</text><type>text</type><relevance>medium</relevance></tag>
+	<tag><text>investopedia</text><type>web</type><search>site:wikipedia.org what is an etf?</search><relevance>high</relevance></tag>	
+	<tag><text>wikipedia</text><type>web</type><search>site:investopedia.com what is an etf?</search><relevance>high</relevance></tag>
+	<tag><text>iShares</text><type>web</type><search>site:ishares.com what is an etf?</search><relevance>medium</relevance></tag>	
   </tags>
   <paragraphs>
 	<paragraph><text>ETFs are marketable securities that trade like common stocks on a stock exchange. Therefore typically the liquidity is higher and fees are lower compared to mutual funds.</text></paragraph>
@@ -34,20 +34,20 @@
 	<bullet><text>give a residual value in case of liquidation</text></bullet>	
   </bullets>  
   <web_sources>
-	<web_source>  		
-  		<href>https://en.wikipedia.org/wiki/Exchange-traded_fund</href>
-  		<header>Wikipedia</header><body> is a free-access, free-content Internet encyclopedia, supported and hosted by the non-profit Wikimedia Foundation. Of course Wikipedia has a page on ETFs.</body>
-		<search>site:wikipedia.org what is an etf?</search>
-  	</web_source>	
-	<web_source>  		
-  		<href>http://www.investopedia.com/terms/e/etf.asp</href>
-  		<header>Investopedia</header><body> is a resource for investing education, personal finance, market analysis, and free trading simulators. In its comprehensive financial dictionary Investopedia offers a more detailed page with information on the question "What is an ETF?".</body>
-		<search>site:investopedia.com what is an etf?</search>
-  	</web_source>	
-	<web_source>  		
-  		<href>http://www.ishares.com/us</href>
-  		<header>iShares</header><body> are a family of exchange-traded funds (ETFs) managed by BlackRock.</body>
-		<search>site:ishares.com what is an etf?</search>
-  	</web_source>
+		<web_source>  		
+	  		<href>https://en.wikipedia.org/wiki/Exchange-traded_fund</href>
+	  		<header>Wikipedia</header><body> is a free-access, free-content Internet encyclopedia, supported and hosted by the non-profit Wikimedia Foundation. Of course Wikipedia has a page on ETFs.</body>
+				<search>site:wikipedia.org what is an etf?</search>
+	  </web_source>	
+		<web_source>  		
+	  		<href>http://www.investopedia.com/terms/e/etf.asp</href>
+	  		<header>Investopedia</header><body> is a resource for investing education, personal finance, market analysis, and free trading simulators. In its comprehensive financial dictionary Investopedia offers a more detailed page with information on the question "What is an ETF?".</body>
+				<search>site:investopedia.com what is an etf?</search>
+	  </web_source>	
+		<web_source>  		
+	  		<href>http://www.ishares.com/us</href>
+	  		<header>iShares</header><body> are a family of exchange-traded funds (ETFs) managed by BlackRock.</body>
+				<search>site:ishares.com what is an etf?</search>
+	  </web_source>
   </web_sources>	
 </abstractanswer> 

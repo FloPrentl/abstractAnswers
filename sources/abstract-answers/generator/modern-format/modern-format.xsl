@@ -55,7 +55,7 @@
 						<div class="section_header_table">				
 							<div class="section_header_table_row">
 								<div  class="section_header_table_cell">
-									<p class="section_header_table_cell_paragraph"><span>tags ...</span>&#160;<span class="section_header_click_to_span">click to highlight tags on page</span></p>
+							<p class="section_header_table_cell_paragraph"><span>tags ...</span>&#160;<span class="section_header_click_to_span">click to highlight tags on page / to perform a specific search on site</span></p>
 								</div>
 							</div>							
 						</div>
@@ -64,7 +64,7 @@
 								<span class="tag">
 									<a>									
 										<xsl:attribute name="href">#</xsl:attribute>
-										<xsl:attribute name="onClick">execute_tag('<xsl:value-of select="text"/>');</xsl:attribute>									
+										<xsl:attribute name="onClick">execute_tag('<xsl:value-of select="text"/>', '<xsl:value-of select="type"/>', '<xsl:value-of select="search"/>');</xsl:attribute>
 										<xsl:value-of select="text"/>
 									</a>
 									&#160;...&#160;
@@ -115,7 +115,7 @@
 						<div class="section_body"> 
 							<ul id="summary_bullets_section_list">
 								<xsl:for-each select="abstractanswer/bullets/bullet">
-									<li><xsl:value-of select="text"/></li>
+									<li class="summary_bullets_section_list_entry"><xsl:value-of select="text"/></li>
 								</xsl:for-each>
 							</ul>
 						</div>								
